@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="generator" content="pandoc">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+		<title>Shockk's Devblog</title>
+		<style type="text/css">code{white-space: pre;}</style>
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+$for(css)$
+		<link rel="stylesheet" href="$css$">
+$endfor$
+$if(math)$
+	$math$
+$endif$
+$for(header-includes)$
+	$header-includes$
+$endfor$
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-2 col-md-8">
+					$body$
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
