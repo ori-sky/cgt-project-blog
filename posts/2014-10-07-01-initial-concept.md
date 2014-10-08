@@ -35,3 +35,7 @@ Once a node becomes active, it is permanently active. Nearby nodes are checked t
 The game has a monster system similar in nature to the exploration system in that monsters will be encountered randomly based on criteria like what the player has recently gone through. Monster encounters will also be taken into account in the exploration system. Encounters will provide a healthy break from the immersion of mining and exploring, yet without breaking the player's overall immersion in the game.
 
 The exploration and monster systems are tightly coupled in terms of how they decide what will happen to the player next and will be tailored to keep the player interested at all times in what's happening in the game world.
+
+---
+
+I intended to go into more detail about things like natural resources and monsters but this post has turned into a bit of a novel. While I won't cover these today, I do intend to make a post about them very soon.
