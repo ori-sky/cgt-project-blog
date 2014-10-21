@@ -8,6 +8,11 @@ body {
 
 .post-panel > .panel-heading {
 	border-color: #ddd;
+	text-decoration: none !important;
+}
+
+.post-panel > .panel-heading:hover {
+	background-color: rgba(0, 0, 10, 0.1);
 }
 
 .post-panel > .panel-heading > .panel-title {
