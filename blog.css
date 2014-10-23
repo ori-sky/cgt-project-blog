@@ -2,29 +2,10 @@ body {
 	background-color: #333;
 }
 
-.post-panel {
-	margin-top: 7px;
-}
-
 .post-panel > .panel-heading {
-	border-color: #ddd;
 	text-decoration: none !important;
 }
 
 .post-panel > .panel-heading:hover {
 	background-color: rgba(0, 0, 10, 0.1);
-}
-
-.post-panel > .panel-heading > .panel-title {
-	color: #666;
-	font-variant: small-caps;
-}
-
-.post-panel > .panel-heading > h2.panel-title {
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
-	font-size: 30px;
-}
-
-.post-panel img {
-	width: 100%;
 }
