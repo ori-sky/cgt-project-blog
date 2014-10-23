@@ -2,6 +2,10 @@ body {
 	background-color: #333;
 }
 
+.post-panel {
+	margin-top: 7px;
+}
+
 .post-panel > .panel-heading {
 	text-decoration: none !important;
 }
