@@ -1,4 +1,4 @@
-BLOG_DIR=/usr/local/nginx/html/blog/sub-terra
+BLOG_DIR=/usr/local/nginx/html/sub-terra/blog
 BLOG_FILE=index.html
 
 STYLE=-c /css/bootstrap.min.css -c /css/page.css -c css/blog.css
