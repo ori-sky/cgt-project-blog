@@ -9,7 +9,7 @@ In graphics programming, one of the first things you're taught is how to draw yo
 
 The first thing to do was to set up a basic skeleton for the game engine. I've chosen to create a entity component system whereby the engine has a bunch of objects--each with a bunch of components (PositionComponent, ModelComponent, etc)--and a bunch of systems that can operate on the objects and their components.
 
-Before I got into components and all that, I wanted to implement two systems that are crucial to a solid engine foundation; the job manager and the event manager. I spent a day or two creating the engine base, after which I spent the next few days writing a **multithreaded** job manager that creates a thread for each hardware concurrency and allows me to schedule jobs to be run asynchronously.
+Before I got into components and all that, I wanted to implement two systems that are crucial to a solid engine foundation; the job manager and the event manager. I spent a day or two creating the engine base, after which I spent the next few days writing a **multithreaded** job manager that creates as many threads as can be run simultaneously on the hardware and allows me to schedule jobs to be run asynchronously.
 
 ```cpp
 jobManager->Do(someFunction);
